@@ -4,214 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charly Ponthieux | Accueil | Portfolio </title>
+    <link rel="stylesheet" href="/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>
-    
-body {
-margin: 0;
-background-color: #F7F7F7;
-
-}
-.logo {
-    Width :424px;
-    Height :95px;
-    margin-left: 24px;
-    margin-right: 600px;
-}
-header {
-    background-color: #191C25;
-    width: 1440px;
-    height: 137px;
-    position: relative;
-    padding-top: 30px;
-}
-nav ul {
-    list-style: none;
-    margin-top:0px;
-}
-nav li {
-    display: inline-block;
-}
-.accueil{
-    width: 67px;
-    margin-right: 50px;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: #F7F7F7;
-    font-family:'Open sans', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
-}
-.active{
-    font-weight: 600;
-}
-a:hover{
-    font-weight: 600;
-}
-.projet{
-    width: 150px;
-    text-align: center;
-}
-
-.intro{
-padding: 40px 0px;
-background-color: #F7F7F7;
-display: flex;
-}
-
-img{
-    width: 684px;
-    height: 416px;
-    margin-left: 24px;
-}
-
-h2{
-    width: 367px;
-    height: 74px;
-
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 74px;
-    text-transform: uppercase;
-    color: #191C24;
-    margin-bottom: -20px;
-}
-
-h3{
-    width: 306px;
-    height: 44px;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 44px;
-    color: #191C24;
-}
-
-.intro p {
-    width: 570px;
-    height: 216px;
-
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
-    color: #191C24;
-}
-.content{
-    margin-left: 24px;
-    margin-top: -40px;
-}
-
-footer{
-    background-color: #191C24;
-    width:1440px;
-}
-footer h2{
-    color: #F7F7F7;
-    margin-left: 24px;
-}
-.contact{
-    display: flex;
-}
-.mail{
-    display: flex;
-    margin-left: 24px;
-    margin-top: 30px;
-    width: 400px;
-}
-.mail a {
-    width: 250px;
-    text-align: inherit;
-    margin-top: 30px;
-    margin-left: 10px;
-}
-.linkedin{
-    display: flex;
-    margin-left: 24px;
-    margin-top: 30px;
-    width: 400px;
-}
-.linkedin a {
-    width: 250px;
-    text-align: inherit;
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
-/*projet*/
-
-.film{
-    background-color: #F7F7F7;
-    width: 1440px;
-    height: 2400px;
-}
-
-.film h2{
-    margin-left: 24px;
-    padding-bottom: 30px;
-}
-iframe{
-    border-radius: 6px 6px 0 0;
-}
-.card{
-    margin-bottom: 30px;
-    margin-left: 24px;
-    width: 448px;
-    height: 430px;
-    background-color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-}
-.card-content{
-    margin-left: 10px;
-}
-
-.card-content h3{
-    font-size: 26px;
-    margin-top: 10px;
-    width: 350px;
-    margin-bottom: 0px;
-}
-
-h4{
-    margin-top: 10px;
-    width: 410px;
-    font-family: "Open sans", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #191C24;
-}
-
-.card-content p{
-    margin-top: 10px;
-    width: 410px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 140%;
-    color: #191C24;
-}
-
-.films{
-    display: flex;
-    flex-wrap: wrap;
-}
-    </style>
 </head>
 <header>
     <nav>
         <ul>
-            <li><img class="logo" src="logo.svg" alt="logo du site de charly ponthieux"></li>
+            <li><img class="logo" src="/logo.svg" alt="logo du site de charly ponthieux"></li>
             <li>
                 <section class="accueil">
                     <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M40.6699 21.6992L22.9711 4.01327C22.8437 3.88558 22.6923 3.78428 22.5257 3.71517C22.359 3.64605 22.1804 3.61047 22 3.61047C21.8196 3.61047 21.641 3.64605 21.4743 3.71517C21.3077 3.78428 21.1563 3.88558 21.0289 4.01327L3.33008 21.6992C2.81445 22.2148 2.52226 22.9152 2.52226 23.6457C2.52226 25.1625 3.75547 26.3957 5.27226 26.3957H7.13711V39.0156C7.13711 39.7762 7.75156 40.3906 8.51211 40.3906H19.25V30.7656H24.0625V40.3906H35.4879C36.2484 40.3906 36.8629 39.7762 36.8629 39.0156V26.3957H38.7277C39.4582 26.3957 40.1586 26.1078 40.6742 25.5879C41.7441 24.5137 41.7441 22.7734 40.6699 21.6992V21.6992Z" fill="#F9FAFB"/>
                     </svg>
-                    <a class="active" href="charlyponthieux-portfolio/index.html"><p>Accueil</p></a>
+                    <a class="active" href="index.html"><p>Accueil</p></a>
                 </section>
             </li>
             <li>
@@ -223,7 +28,7 @@ h4{
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M32.4798 18.2703H6.24805C4.22664 18.2703 2.58829 19.9681 2.58829 22.062V37.6251C2.58829 39.719 4.22664 41.4143 6.24805 41.4143H32.4798C34.5012 41.4143 36.1422 39.719 36.1422 37.6251V22.0646C36.1422 19.9681 34.5012 18.2703 32.4798 18.2703Z" fill="#F9FAFB"/>
                     </svg>
                         
-                    <a href="charlyponthieux-portfolio/projet.html"><p>Mes projets</p></a>
+                    <a href="/projet.html"><p>Mes projets</p></a>
                 </section>
             </li>
         </ul>
@@ -233,7 +38,7 @@ h4{
     <main>
         <section>
             <section class="intro">
-                <img src="charly.png" alt="une photo de l'auteur du site">
+                <img src="/charly.png" alt="une photo de l'auteur du site">
                 <div class="content">
                     <h2 class="">Réalisateur vidéo</h2>
                     <h3 class="">Publicitaire et Institutionnel</h3>
